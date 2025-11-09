@@ -1,0 +1,37 @@
+body{
+        background: url(/media/Coquette\ theme.jpeg);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+    }
+    div{
+        background-color: #E69DB8;
+        padding: 20px;
+        width: 60%;
+        margin: 20px auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px #e69db8aa;
+
+    }
+    button {
+        background-color: #FFFECE;
+        color: #E69DB8;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 15px;
+        font-weight: 700;
+        cursor: pointer;
+        margin: 10px;
+        transition: all 0.3s ease;
+    }
+    button:hover {
+        background-color: #F1E7E7;
+        color: #E69DB8;
+        transform: scale(2);
+    }
+    video, iframe {
+        border-radius: 15px;
+        box-shadow: 0 3px 8px rgba(0, 0, 0.2);
+    }

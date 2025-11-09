@@ -1,0 +1,48 @@
+body {
+    background-color: #7D8D86;
+    font-family: "Patrick Hand", cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #3E3F29;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px 40px;
+}
+
+.grid-item {
+    border: 1px solid #3E3F29;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+h2 {
+    font-style: italic;
+    text-shadow: 2px 2px #BCA88D;
+    color: #3E3F29;
+    text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    background-color:#BCA88D;
+    color: #3E3F29;
+    cursor: pointer;
+    padding: 10px 16px;
+}
+
+button:hover {
+    background-color: #F1F0E4;
+}
